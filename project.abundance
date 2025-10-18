@@ -60,8 +60,8 @@
     {
       "atomType": "Assembly",
       "name": "Assembly",
-      "x": 0.5795454545454545,
-      "y": 0.37234042553191493,
+      "x": 0.5777972027972028,
+      "y": 0.3638297872340426,
       "uniqueID": "dac6852c-04f2-4447-bac6-dbc42ed0e963",
       "ioValues": [
         {
@@ -320,6 +320,33 @@
             },
             "color": "#aad7f2",
             "bom": []
+          }
+        },
+        {
+          "name": "Shape 8",
+          "ioValue": {
+            "geometry": "move-rotate-cut-fuse-move-extrude-rectangle-45-30-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0--15-0-move-rotate-extrude-circle-22.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30-94-0-0-0-0-26-move-rotate-loft-move-circle-20-0-0-0-move-circle-22-0-0-0-94-0-0-0-2-22.5-0-0-40--160-140-1",
+            "tags": [],
+            "bom": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "dimension": "3D"
           }
         }
       ]
@@ -2321,45 +2348,48 @@
     {
       "atomType": "Move",
       "name": "Move",
-      "x": 0.44230769230769235,
-      "y": 0.8617021276595744,
+      "x": 0.5262237762237763,
+      "y": 0.9106382978723404,
       "uniqueID": "43c38de7-cb32-4e13-8884-3c81967262a6",
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": -180,
-          "currentEquation": "-180"
+          "ioValue": -160,
+          "currentEquation": "-160"
         },
         {
           "name": "yDist",
-          "ioValue": 180,
-          "currentEquation": "180"
+          "ioValue": 140,
+          "currentEquation": "140"
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": 1,
+          "currentEquation": "01"
         }
       ]
     },
     {
       "atomType": "Rotate",
       "name": "Rotate",
-      "x": 0.5402097902097902,
-      "y": 0.7595744680851064,
+      "x": 0.44755244755244755,
+      "y": 0.8765957446808511,
       "uniqueID": "131d15cd-7d3e-4ffc-b38e-1fa8ed8e8119",
       "ioValues": [
         {
           "name": "x-axis degrees",
-          "ioValue": 45,
-          "currentEquation": "45"
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "y-axis degrees",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "z-axis degrees",
-          "ioValue": 0
+          "ioValue": 40,
+          "currentEquation": "40"
         }
       ]
     }
@@ -2465,13 +2495,19 @@
       "ap1Name": "geometry or number",
       "ap2Name": "geometry",
       "ap1ID": "a646375c-ec5d-43b1-9d8a-40c89045fb8c",
-      "ap2ID": "43c38de7-cb32-4e13-8884-3c81967262a6"
+      "ap2ID": "131d15cd-7d3e-4ffc-b38e-1fa8ed8e8119"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "Shape 8",
+      "ap1ID": "43c38de7-cb32-4e13-8884-3c81967262a6",
+      "ap2ID": "dac6852c-04f2-4447-bac6-dbc42ed0e963"
     },
     {
       "ap1Name": "geometry",
       "ap2Name": "geometry",
-      "ap1ID": "43c38de7-cb32-4e13-8884-3c81967262a6",
-      "ap2ID": "131d15cd-7d3e-4ffc-b38e-1fa8ed8e8119"
+      "ap1ID": "131d15cd-7d3e-4ffc-b38e-1fa8ed8e8119",
+      "ap2ID": "43c38de7-cb32-4e13-8884-3c81967262a6"
     }
   ],
   "unitsKey": "MM",
